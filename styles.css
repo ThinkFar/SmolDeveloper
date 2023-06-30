@@ -1,0 +1,41 @@
+@import 'tailwind.css';
+
+/* Custom styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 640px) {
+    .container {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
